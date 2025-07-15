@@ -13,7 +13,7 @@ class PostAdmin(admin.ModelAdmin):
     raw_id_fields = ["author"]
     date_hierarchy = "publish"
     ordering = ["status", "publish"]
-    show_facets = admin.ShowFacets.ALWAYS  # Activate facets for this model
+
     is_facetable = True  # Make this model facetable
     faceted_search_fields = ["title", "body"]  # Fields to be used in faceted search
     faceted_search = True  # Enable faceted search for this model
