@@ -9,4 +9,10 @@
 <p class="date">Published {{ post.publish }} by {{ post.author }}</p>
 {{ post.body|truncatewords:30|linebreaks }} 
 {% endfor %} 
+
+<!--===Pagination===-->
+<!--for fbv-->
+<!--{% include "inc/pagination.html" with page=posts %}-->
+<!--for cbv-->
+{% include "inc/pagination.html" with page=page_obj %}
 {% endblock %}

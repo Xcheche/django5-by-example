@@ -11,8 +11,7 @@ class PublishedManager(models.Manager):
         return super().get_queryset().filter(status=Post.Status.PUBLISHED)
 
 
-
-#Model for blog posts
+# Model for blog posts
 # Inherits from BaseModel which has created_at and updated_at fields
 # The Post model represents a blog post with fields for title, slug, author, body,
 class Post(BaseModel):
@@ -35,7 +34,8 @@ class Post(BaseModel):
     status = models.CharField(
         max_length=2, choices=Status.choices, default=Status.DRAFT
     )
-# Metadata for the post
+
+    # Metadata for the post
     class Meta:
         ordering = ["-publish"]
         verbose_name_plural = "Posts"
@@ -45,15 +45,9 @@ class Post(BaseModel):
 
     def __str__(self):
         return self.title
-    
-    
-    
-    
-    
-    
 
     # Get absolute url using args positional arguments or kwargs keyword arguments could be used
-    #Canonical URL for the post
+    # Canonical URL for the post
     def get_absolute_url(self):
         return reverse(
             "blog:post_detail",

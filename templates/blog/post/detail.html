@@ -4,6 +4,11 @@
 <h1>{{ post.title }}</h1>
 <p class="date">
 Published {{ post.publish }} by {{ post.author }}
+<!-- Share post link -->
+<p>
+    <a href="{% url 'blog:share_post' post.id %}">
+    Share this post
+    </a>
 </p>
 {{ post.body|linebreaks }}
 {% endblock %}
