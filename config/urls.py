@@ -17,9 +17,29 @@ Including another URLconf
 
 from django.contrib import admin
 from django.urls import path, include
+from django.contrib.sitemaps.views import sitemap
+
+# sitemap
+from blog.sitemaps import PostSitemap
+
+# sitemap
+sitemaps = {
+    "posts": PostSitemap,
+}
 
 urlpatterns = [
     path("admin/", admin.site.urls),
     path("", include("blog.urls", namespace="blog")),
     path("__reload__/", include("django_browser_reload.urls")),
+    # sitemap
+    path(
+        "sitemap.xml",
+        sitemap,
+        {"sitemaps": sitemaps},
+        name="django.contrib.sitemaps.views.sitemap",
+    ),
 ]
+
+# TODO: for sitemap
+# RUN python manage.py migrate
+# Run server   localhost/sitemap.xml or localhost/admin/sites/site/ to add domain name

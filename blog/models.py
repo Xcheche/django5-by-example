@@ -3,6 +3,7 @@ from django.db import models
 from django.conf import settings
 from django.urls import reverse
 from common.models import BaseModel
+from taggit.managers import TaggableManager
 
 
 # Custom manager to filter published posts
@@ -15,6 +16,7 @@ class PublishedManager(models.Manager):
 # Inherits from BaseModel which has created_at and updated_at fields
 # The Post model represents a blog post with fields for title, slug, author, body,
 class Post(BaseModel):
+    tags = TaggableManager()  # for taggit
     objects = models.Manager()  # The default manager.
     published = PublishedManager()  # Our custom manager.
 
@@ -58,3 +60,25 @@ class Post(BaseModel):
                 "day": self.publish.day,
             },
         )
+
+
+# Comment Feature
+class Comment(BaseModel):
+    post = models.ForeignKey(Post, on_delete=models.CASCADE, related_name="comments")
+    name = models.CharField(max_length=80)
+    email = models.EmailField()
+    body = models.TextField()
+    # Already inherited from BaseModel
+    # created = models.DateTimeField(auto_now_add=True)
+    # updated = models.DateTimeField(auto_now=True)
+    active = models.BooleanField(default=True)
+
+    class Meta:
+        ordering = ["created"]
+        indexes = [
+            # Helps to speed up queries that filter by created date in the database very important for any database model
+            models.Index(fields=["created"]),
+        ]
+
+    def __str__(self):
+        return f"Comment by {self.name} on {self.post}"

@@ -1,0 +1,1131 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2025-06-27T18:38:13.323Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "54fcce71-eadc-4c70-a597-e59ae8479f9f",
+    "object_repr": "Django",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2025-06-27T18:38:23.645Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "54fcce71-eadc-4c70-a597-e59ae8479f9f",
+    "object_repr": "Django",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2025-07-01T17:45:44.782Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "7258286c-c015-4966-be62-0f40af4b3dba",
+    "object_repr": "Flutter",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2025-07-01T17:47:07.474Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "54fcce71-eadc-4c70-a597-e59ae8479f9f",
+    "object_repr": "Django",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2025-07-01T17:47:49.441Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "7258286c-c015-4966-be62-0f40af4b3dba",
+    "object_repr": "Flutter",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2025-07-01T17:48:03.537Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "7258286c-c015-4966-be62-0f40af4b3dba",
+    "object_repr": "Flutter",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2025-07-01T18:59:22.158Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "7258286c-c015-4966-be62-0f40af4b3dba",
+    "object_repr": "Flutter",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2025-08-18T08:09:45.761Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "c3ad4c3f-5815-40e2-a9ce-c71351d1ee39",
+    "object_repr": "Asp",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2025-08-21T17:15:28.893Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "Jazz",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"tagged item\", \"object\": \"None tagged with Jazz\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2025-08-22T13:15:14.863Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "Jazz",
+    "action_flag": 2,
+    "change_message": "[{\"added\": {\"name\": \"tagged item\", \"object\": \"None tagged with Jazz\"}}, {\"added\": {\"name\": \"tagged item\", \"object\": \"None tagged with Jazz\"}}, {\"added\": {\"name\": \"tagged item\", \"object\": \"None tagged with Jazz\"}}, {\"changed\": {\"name\": \"tagged item\", \"object\": \"Authentication and Authorization | permission tagged with Jazz\", \"fields\": [\"Content type\", \"Object ID\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2025-08-22T14:02:35.340Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "Jazz",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2025-08-22T15:08:50.762Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "jazz",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"tagged item\", \"object\": \"None tagged with jazz\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2025-08-22T15:09:10.635Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "3",
+    "object_repr": "Django",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"tagged item\", \"object\": \"None tagged with Django\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2025-08-22T15:10:24.688Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "4",
+    "object_repr": "music",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"tagged item\", \"object\": \"Django tagged with music\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2025-08-22T15:11:55.581Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "3",
+    "object_repr": "Django",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2025-08-22T15:11:55.581Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "jazz",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2025-08-22T15:11:55.581Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "4",
+    "object_repr": "music",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2025-08-22T15:18:15.500Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "5",
+    "object_repr": "django",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"tagged item\", \"object\": \"Authentication and Authorization | permission tagged with django\"}}, {\"added\": {\"name\": \"tagged item\", \"object\": \"Administration | log entry tagged with django\"}}, {\"added\": {\"name\": \"tagged item\", \"object\": \"None tagged with django\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2025-08-22T16:05:33.276Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "5",
+    "object_repr": "django",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2025-08-28T14:00:43.040Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Asp.netcore",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2025-08-28T14:00:50.829Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Asp.netcore",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2025-08-28T14:06:22.074Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Flutter",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2025-08-28T14:07:26.589Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "React",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2025-08-28T14:24:58.833Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "Vuejs",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2025-08-29T01:08:32.528Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "Angular",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 4,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 4,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 4,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 4,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 5,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 5,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 5,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 5,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 6,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 6,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 6,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 6,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add post",
+    "content_type": 7,
+    "codename": "add_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change post",
+    "content_type": 7,
+    "codename": "change_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete post",
+    "content_type": 7,
+    "codename": "delete_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view post",
+    "content_type": 7,
+    "codename": "view_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add comment",
+    "content_type": 8,
+    "codename": "add_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change comment",
+    "content_type": 8,
+    "codename": "change_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete comment",
+    "content_type": 8,
+    "codename": "delete_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view comment",
+    "content_type": 8,
+    "codename": "view_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add tag",
+    "content_type": 9,
+    "codename": "add_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change tag",
+    "content_type": 9,
+    "codename": "change_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete tag",
+    "content_type": 9,
+    "codename": "delete_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view tag",
+    "content_type": 9,
+    "codename": "view_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add tagged item",
+    "content_type": 10,
+    "codename": "add_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change tagged item",
+    "content_type": 10,
+    "codename": "change_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete tagged item",
+    "content_type": 10,
+    "codename": "delete_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view tagged item",
+    "content_type": 10,
+    "codename": "view_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add site",
+    "content_type": 11,
+    "codename": "add_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change site",
+    "content_type": 11,
+    "codename": "change_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete site",
+    "content_type": 11,
+    "codename": "delete_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can view site",
+    "content_type": 11,
+    "codename": "view_site"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$UCr4mxpUoSTMjMzGiW3vSr$6HnY0FlPvPhOgEkY1JgoDY7I8ItH8YcqMCWZHnr7AtU=",
+    "last_login": "2025-08-28T13:39:56.556Z",
+    "is_superuser": true,
+    "username": "cheche",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2025-06-27T18:36:01.862Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "blog",
+    "model": "post"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "blog",
+    "model": "comment"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "taggit",
+    "model": "tag"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "taggit",
+    "model": "taggeditem"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "sites",
+    "model": "site"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "1h6927kwobaqflwc8f64ch7dox09ryl3",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGln-4B8lfc5grXdtHEC2FCcV4u4QKQW0b2bei0XY1hq3kZc4E7swyU6_WwJ85LYDukO7dY69rcuc-K7wgw4-dcrP6-H-HVQY9VsXHZwpxRqfdfJgglQUMAldgNAZRGW8EwRBoBM2F6mV09mewRavKAn2_gDtUTgO:1uWemN:8lu_jXaguhVEzUeFSSMsx3oUq8MxRjTNg8vt44uCgXI",
+    "expire_date": "2025-07-15T17:28:23.458Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "ozmv1x043zrgprptzwm2y74xswq5ocju",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGln-4B8lfc5grXdtHEC2FCcV4u4QKQW0b2bei0XY1hq3kZc4E7swyU6_WwJ85LYDukO7dY69rcuc-K7wgw4-dcrP6-H-HVQY9VsXHZwpxRqfdfJgglQUMAldgNAZRGW8EwRBoBM2F6mV09mewRavKAn2_gDtUTgO:1uqV6M:dn1IULpLOC8f2Fjie8lzYHKk_k034Vi-_DIHG5m9e9M",
+    "expire_date": "2025-09-08T11:11:02.140Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "p9xutp9d1xlkmct1v6vmqhy8fosb1t9m",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGln-4B8lfc5grXdtHEC2FCcV4u4QKQW0b2bei0XY1hq3kZc4E7swyU6_WwJ85LYDukO7dY69rcuc-K7wgw4-dcrP6-H-HVQY9VsXHZwpxRqfdfJgglQUMAldgNAZRGW8EwRBoBM2F6mV09mewRavKAn2_gDtUTgO:1uVDvy:pu-1E0_6U8aaLzpfgTBM2DAyrNAzYqoP-rFfGQQ8La0",
+    "expire_date": "2025-07-11T18:36:22.820Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "vzbrnm2nraawuhnhfoxdf7yhqnb5cowj",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGln-4B8lfc5grXdtHEC2FCcV4u4QKQW0b2bei0XY1hq3kZc4E7swyU6_WwJ85LYDukO7dY69rcuc-K7wgw4-dcrP6-H-HVQY9VsXHZwpxRqfdfJgglQUMAldgNAZRGW8EwRBoBM2F6mV09mewRavKAn2_gDtUTgO:1urcr6:lVs56vpunwQe3OFkE0jDiSSjCd6yzup6wkoyU3CU1OU",
+    "expire_date": "2025-09-11T13:39:56.578Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "wud1frz6yy25s4l6u3z7sqaxs9ym7xc5",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGln-4B8lfc5grXdtHEC2FCcV4u4QKQW0b2bei0XY1hq3kZc4E7swyU6_WwJ85LYDukO7dY69rcuc-K7wgw4-dcrP6-H-HVQY9VsXHZwpxRqfdfJgglQUMAldgNAZRGW8EwRBoBM2F6mV09mewRavKAn2_gDtUTgO:1up8rI:xoMBkaxc5ptGLFLHIcE9exfOBIx7DqBGp07itxMk4ws",
+    "expire_date": "2025-09-04T17:13:52.343Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "wxszyhtimeddh200p3uvwvon1fyx4hfl",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGln-4B8lfc5grXdtHEC2FCcV4u4QKQW0b2bei0XY1hq3kZc4E7swyU6_WwJ85LYDukO7dY69rcuc-K7wgw4-dcrP6-H-HVQY9VsXHZwpxRqfdfJgglQUMAldgNAZRGW8EwRBoBM2F6mV09mewRavKAn2_gDtUTgO:1unuvH:s3LJ9tvTftZjuNHA1D7E_qXIor4Axe42KyV_jsV83Z0",
+    "expire_date": "2025-09-01T08:08:55.908Z"
+  }
+},
+{
+  "model": "sites.site",
+  "pk": 1,
+  "fields": {
+    "domain": "example.com",
+    "name": "example.com"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 6,
+  "fields": {
+    "name": "django",
+    "slug": "django"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 7,
+  "fields": {
+    "name": "jazz",
+    "slug": "jazz"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 8,
+  "fields": {
+    "name": "music",
+    "slug": "music"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 9,
+  "fields": {
+    "name": "frontend",
+    "slug": "frontend"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 10,
+  "fields": {
+    "name": "ui",
+    "slug": "ui"
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 11,
+  "fields": {
+    "tag": 6,
+    "content_type": 7,
+    "object_id": 1
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 12,
+  "fields": {
+    "tag": 7,
+    "content_type": 7,
+    "object_id": 1
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 13,
+  "fields": {
+    "tag": 8,
+    "content_type": 7,
+    "object_id": 1
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 14,
+  "fields": {
+    "tag": 6,
+    "content_type": 7,
+    "object_id": 2
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 15,
+  "fields": {
+    "tag": 7,
+    "content_type": 7,
+    "object_id": 2
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 16,
+  "fields": {
+    "tag": 8,
+    "content_type": 7,
+    "object_id": 2
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 17,
+  "fields": {
+    "tag": 9,
+    "content_type": 7,
+    "object_id": 3
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 18,
+  "fields": {
+    "tag": 10,
+    "content_type": 7,
+    "object_id": 3
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 19,
+  "fields": {
+    "tag": 9,
+    "content_type": 7,
+    "object_id": 4
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 20,
+  "fields": {
+    "tag": 10,
+    "content_type": 7,
+    "object_id": 4
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 21,
+  "fields": {
+    "tag": 9,
+    "content_type": 7,
+    "object_id": 5
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 22,
+  "fields": {
+    "tag": 10,
+    "content_type": 7,
+    "object_id": 5
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 1,
+  "fields": {
+    "publish": "2025-08-28T13:59:57Z",
+    "created": "2025-08-28T14:00:42.997Z",
+    "updated": "2025-08-28T14:00:50.816Z",
+    "title": "Asp.netcore",
+    "slug": "aspnetcore",
+    "author": 1,
+    "body": "Good backend framework",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 2,
+  "fields": {
+    "publish": "2025-08-13T00:00:00Z",
+    "created": "2025-08-28T14:06:22.063Z",
+    "updated": "2025-08-28T14:06:22.063Z",
+    "title": "Flutter",
+    "slug": "flutter",
+    "author": 1,
+    "body": "Flutter is an open-source UI software development kit created by Google. It's designed for building natively compiled applications for mobile, web, and desktop from a single codebase. One of its standout features is the ability to create visually attractive UIs while ensuring high performance across a range of devices. Flutter uses the Dart programming language, which is object-oriented and allows developers to leverage features like just-in-time (JIT) and ahead-of-time (AOT) compilation. This means that developers can enjoy fast development cycles as they work on the UI, while also benefitting from optimized performance in production.\r\n\r\nThe widget-based architecture of Flutter is another reason for its popularity. Everything in Flutter is a widget, including layout models and stylistic elements. This approach enables developers to construct complex UIs by composing smaller, reusable components, making it simpler to maintain and update code. Additionally, Flutter’s \"hot reload\" feature allows developers to see changes in real-time, fostering an efficient workflow that streamlines the iterative design process.\r\n\r\nMoreover, Flutter provides a rich set of pre-designed widgets that conform to the guidelines of both Material Design and Cupertino (iOS). This ensures that applications look native on both Android and iOS platforms, while also providing the flexibility to customize the UI extensively.\r\n\r\nFlutter has gained a strong following due to its growing community and extensive documentation, making it accessible for both new and experienced developers. With its capacity to create beautiful, cross-platform applications quickly and effectively, Flutter continues to be a preferred choice for app development in today's tech landscape. It bridges the gap between native performance and ease of development, making it a powerful tool for innovators looking to bring their ideas to life.",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 3,
+  "fields": {
+    "publish": "2025-08-28T14:06:25Z",
+    "created": "2025-08-28T14:07:26.552Z",
+    "updated": "2025-08-28T14:07:26.552Z",
+    "title": "React",
+    "slug": "react",
+    "author": 1,
+    "body": "ReactJS is a popular JavaScript library developed by Facebook for building user interfaces, particularly for single-page applications where a dynamic and responsive user experience is crucial. Released in 2013, it has gained immense popularity due to its component-based architecture, efficiency, and flexibility.\r\n\r\nAt the heart of React is the concept of components. A component is a self-contained module that manages its own state and structure, allowing developers to build encapsulated pieces of UI. This modularity enables more straightforward code organization and reusability, which enhances the efficiency of the development process. Components can be composed together to create complex UIs from simple building blocks, facilitating better management of the application’s codebase.\r\n\r\nReact employs a virtual DOM (Document Object Model), which is a lightweight copy of the actual DOM. When a component's state changes, React updates the virtual DOM first and then performs a diffing algorithm to determine what has changed. This process allows React to efficiently update only the parts of the actual DOM that need to change, leading to improved performance compared to direct manipulations of the DOM.\r\n\r\nAnother significant feature of React is its use of JSX (JavaScript XML), a syntax extension that allows developers to write HTML elements within JavaScript. JSX makes the code more readable and expressive, enabling developers to visualize the UI structure directly within the JavaScript code. While JSX is not mandatory, it has become a popular convention among React developers.\r\n\r\nReact is also known for its ecosystem, which includes tools and libraries that enhance its functionality. For instance, React Router enables single-page navigation, while state management libraries like Redux or Context API provide robust solutions for managing application state across components. Additionally, React’s support for hooks, introduced in React 16.8, allows developers to use state and other React features without writing classes, making components easier to read and maintain.\r\n\r\nReact’s community is vast and active, providing a wealth of resources, libraries, and tools. This community support makes it easy for developers to find solutions to common problems, share knowledge, and collaborate on open-source projects. \r\n\r\nIn summary, ReactJS has fundamentally changed the way developers think about building user interfaces. Its component-based architecture, virtual DOM efficiency, and expansive ecosystem make it a top choice for modern web development. Whether for small projects or large-scale applications, React continues to be a leading framework in the JavaScript landscape, enabling developers to create seamless, high-performance web applications.",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 4,
+  "fields": {
+    "publish": "2025-08-28T14:23:41Z",
+    "created": "2025-08-28T14:24:58.825Z",
+    "updated": "2025-08-28T14:24:58.825Z",
+    "title": "Vuejs",
+    "slug": "vuejs",
+    "author": 1,
+    "body": "Vue.js is a progressive JavaScript framework used for building user interfaces. Created by Evan You and released in 2014, Vue has gained popularity for its simplicity and flexibility, making it a favorite choice among developers.\r\n\r\nOne of the key features of Vue is its reactive data binding, which allows the UI to automatically update whenever the underlying data changes. This makes it easy to manage state and create dynamic, interactive applications. Vue utilizes a component-based architecture, enabling developers to break their applications into reusable and self-contained pieces. Each component can maintain its own state, which simplifies the process of managing complex interfaces.\r\n\r\nVue’s template syntax is another highlight, as it allows developers to define the structure of their UI in an intuitive way. By using HTML-based templates, developers can quickly see how the user interface will look, making it easier to iterate on designs. Additionally, Vue supports directives, which are special tokens in the markup that extend HTML functionality, allowing for conditional rendering, loops, and event handling with ease.\r\n\r\nFurthermore, Vue's ecosystem offers powerful tools such as Vue Router for managing navigation and Vuex for state management in larger applications. These tools integrate seamlessly with the core Vue library, providing a comprehensive solution for building robust applications.\r\n\r\nVue also emphasizes performance, with a virtual DOM implementation that optimizes rendering. This ensures that applications built with Vue are not only user-friendly but also fast and efficient. \r\n\r\nThe supportive community around Vue makes it easy for developers to find resources, plugins, and tutorials. Overall, Vue.js stands out as an excellent choice for both beginners and experienced developers looking to create modern web applications. Its balance of simplicity, flexibility, and functionality makes it a powerful tool in the ever-evolving landscape of web development.",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 5,
+  "fields": {
+    "publish": "2025-08-29T00:44:12Z",
+    "created": "2025-08-29T01:08:32.505Z",
+    "updated": "2025-08-29T01:08:32.505Z",
+    "title": "Angular",
+    "slug": "angular",
+    "author": 1,
+    "body": "## This is an H2 in a blockquote",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 1,
+  "fields": {
+    "publish": "2025-08-28T14:09:26.157Z",
+    "created": "2025-08-28T14:09:26.231Z",
+    "updated": "2025-08-28T14:09:26.231Z",
+    "post": 3,
+    "name": "Chukwuebuka Omenife",
+    "email": "chukwuebuka.omenife@miva.edu.ng",
+    "body": "Awesome!",
+    "active": true
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 2,
+  "fields": {
+    "publish": "2025-08-29T01:51:44.066Z",
+    "created": "2025-08-29T01:51:44.246Z",
+    "updated": "2025-08-29T01:51:44.246Z",
+    "post": 2,
+    "name": "Kate Mary",
+    "email": "max@mail.com",
+    "body": "Ilove this",
+    "active": true
+  }
+}
+]
